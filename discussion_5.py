@@ -9,7 +9,7 @@ def count_a(sentence):
 	return total
 
 
-# Item class
+# Item class change
 # Describes an item to be sold. Each item has a name, a price, and a stock.
 class Item:
 	# Constructor.
