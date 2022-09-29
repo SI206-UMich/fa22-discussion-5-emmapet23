@@ -108,7 +108,7 @@ class TestAllMethods(unittest.TestCase):
 		self.warehouse.add_item(self.item2)
 		self.warehouse.add_item(self.item3)
 		self.warehouse.add_item(self.item4)
-		self.warehouse.add_item(self.item5)
+		self.warehouse.add_item(self.item4)
 		self.assertEqual(self.warehouse.get_max_price(), self.item1, "item 1 is the max")
 
 		pass
