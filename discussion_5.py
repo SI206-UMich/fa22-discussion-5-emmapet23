@@ -112,6 +112,8 @@ class TestAllMethods(unittest.TestCase):
 		self.assertEqual(self.warehouse.get_max_price(), self.item1, "item 1 is the max")
 
 		pass
+
+		#done
 		
 
 def main():
